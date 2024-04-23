@@ -1,5 +1,6 @@
-<p allign="center">
-  <a allign="center" href="https://t.me/hinqiwame">Telegram</a><br>
-  <a allign="center" href="https://vk.com/livingworstofallmydays">VK</a><br>
-  <img width="256" src="qr.png">
+[Telegram](https://t.me/hinqiwame)
+[VK](https://vk.com/livingworstofallmydays)
+
+<p align="center">
+  <img width="256" alt="VK QR" src="qr.png">
 </p>
