@@ -1,6 +1,9 @@
-[Telegram](https://t.me/hinqiwame)<br>
-[VK](https://vk.com/livingworstofallmydays)
-
 <p align="center">
-  <img width="256" alt="VK QR" src="qr.png">
+  <img width="561" alt="???" src="makima.gif">
+  <br><br>
+  <a href="https://vk.com/livingworstofallmydays">VK </a>
+  | 
+  <a href="https://t.me/hinqiwame">TG</a>
+  <br><br>
+  <img width="128" alt="VK QR" src="qr.png">
 </p>
