@@ -10,10 +10,20 @@ function copyeth() {
   navigator.clipboard.writeText(address)
     .then(() => {
       console.log('ETH address copied!');
+      shownotification('ETH address copied!');
     })
     .catch(err => {
       console.error('Could not copy ETH address: ', err);
     });
+}
+
+function shownotification(message) {
+  var notification = document.getElementById('notification');
+  notification.innerText = message;
+  notification.style.display = 'block';
+  setTimeout(function() {
+    notification.style.display = 'none';
+  }, 2000);
 }
 </script>
 <style>
@@ -21,7 +31,7 @@ function copyeth() {
     text-align: center;
     background-color: black;
   }
-  eth {
+  #eth {
       cursor: pointer;
   }
   .container {
@@ -33,6 +43,13 @@ function copyeth() {
   }
   .tg:hover img {
     filter: invert(#00AEED);
+  }
+  #notification {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
   }
 </style>
 </head>
@@ -53,6 +70,7 @@ function copyeth() {
     </a>
     <img onclick="copyeth()" class="eth" width="50" src="eth.svg">
   </p>
+  <div id="notification"></div>
   <audio autoplay loop>
     <source src="music.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
