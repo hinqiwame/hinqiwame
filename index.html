@@ -4,10 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>hinqiwame</title>
+<script>
+function copyeth() {
+  var address = "0x4FAe7A35439b89047F38bF74f38a1641F9D5c80A";
+  navigator.clipboard.writeText(address)
+    .then(() => {
+      console.log('ETH address copied!');
+    })
+    .catch(err => {
+      console.error('Could not copy ETH address: ', err);
+    });
+}
+</script>
 <style>
   body {
     text-align: center;
     background-color: black;
+  }
+  img {
+      cursor: pointer;
   }
   .container {
     margin: 0 auto;
@@ -36,6 +51,8 @@
     <a href="https://github.com/hinqiwame">
       <img width="50" src="git.svg">
     </a>
+    <br>
+    <img onclick="copyeth()" width="50" src="eth.svg">
   </p>
   <audio autoplay loop>
     <source src="music.mp3" type="audio/mpeg">
