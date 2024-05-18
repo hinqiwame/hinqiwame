@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="280" alt="???" src="makima.gif">
+  <img width="400" alt="???" src="signa.jpg">
   <br><br>
   <a href="https://vk.com/livingworstofallmydays">VK</a>
    | 
