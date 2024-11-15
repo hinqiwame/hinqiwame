@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" alt="???" src="signa.jpg">
+  <img width="300" alt="???" src="signa.jpg">
   <br><br>
   <a href="https://vk.com/livingworstofallmydays">VK</a>
    | 
