@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Contacts</h1>
-  <a href="https://vk.com/livingworstofallmydays">
+  <a href="https://vk.com/id849564205">
     <img src="vk.png" alt="VK" width="55">
   </a>
   <a href="https://t.me/hinqiwame" style="position: relative; top: -8px;">
